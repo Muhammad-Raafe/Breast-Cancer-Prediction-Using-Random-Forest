@@ -1,95 +1,42 @@
-# 🩺 Breast Cancer Prediction using Random Forest Classifier
+# 🎗️ Breast Cancer Risk Predictor
+
+An AI-powered web application that classifies breast tumors as **Malignant** or **Benign** using Random Forest algorithm.
+
+## 🚀 Live Demo
 
 ## 📌 Project Overview
+This project uses machine learning to analyze tumor measurements from the Wisconsin Breast Cancer Dataset and predict whether a tumor is malignant or benign. The model is trained on 569 patient records with 30 clinical features.
 
-This project focuses on predicting whether a breast tumor is **Benign (Non-Cancerous)** or **Malignant (Cancerous)** using the **Random Forest Classifier**. The complete machine learning workflow was implemented, including data preprocessing, model training, hyperparameter tuning, evaluation, and feature importance analysis.
+## 🛠️ Technologies Used
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- Streamlit
+- Plotly
 
----
+## ⚙️ Data Preprocessing
+- Label Encoding for diagnosis column (M=1, B=0)
+- Dropped irrelevant ID column
+- Train/Test Split (80/20)
 
-## 🎯 Objectives
+## 🤖 ML Model
+- **Algorithm:** Random Forest Classifier
+- **Estimators:** 100 trees
+- **Criterion:** Gini Impurity
+- **Max Depth:** 5
 
-* Predict breast cancer diagnosis using machine learning.
-* Perform data preprocessing and feature selection.
-* Train a Random Forest Classification model.
-* Improve model performance using hyperparameter tuning.
-* Evaluate the model using multiple classification metrics.
-* Identify the most influential features affecting predictions.
+## 🖥️ App Features
+- Interactive tumor measurement input form
+- Organized in Mean / Standard Error / Worst sections
+- Real-time Malignant vs Benign prediction
+- Animated risk gauge (Plotly)
+- Feature importance chart (Top 10)
+- Professional dark medical dashboard UI
 
----
+## 📊 Model Performance
+- High accuracy on Wisconsin Breast Cancer Dataset
+- Feature importance visualization included
 
-## 📂 Dataset
-
-The project uses the **Breast Cancer Wisconsin Diagnostic Dataset**, containing measurements extracted from digitized images of breast cell nuclei.
-
-**Target Variable:**
-
-* **0 → Benign**
-* **1 → Malignant**
-
----
-
-## 🛠 Data Preprocessing
-
-* Removed unnecessary `id` column.
-* Encoded the target variable (`diagnosis`) into numerical values.
-* Checked for missing values and duplicates.
-* Split the dataset into training and testing sets.
-
----
-
-## 🤖 Machine Learning Model
-
-**Algorithm Used:**
-
-* Random Forest Classifier
-
-**Hyperparameters Tuned:**
-
-* `criterion`
-* `max_depth`
-* `min_samples_split`
-* `min_samples_leaf`
-* `random_state`
-
----
-
-## 📊 Model Evaluation
-
-The model was evaluated using:
-
-* Accuracy Score
-* Confusion Matrix
-* Classification Report
-
-  * Precision
-  * Recall
-  * F1-Score
-
-**Final Accuracy:** **96%**
-
----
-
-## 📈 Feature Importance
-
-Random Forest was used to identify the most important features contributing to breast cancer prediction. A **Seaborn Feature Importance Bar Chart** was generated to visualize the top predictive features.
-
----
-
-## 💻 Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Matplotlib
-* Seaborn
-
----
-
-## 🚀 Key Learning Outcomes
-
-* Data preprocessing for medical datasets.
-* Binary classification using Random Forest.
-* Hyperparameter tuning for performance improvement.
-* Model evaluation using classification metrics.
-* Understanding and visualizing feature importance.
+## 👨‍💻 Author
+**Muhammad Raafe Memon**
+Aspiring AI & Machine Learning Engineer
