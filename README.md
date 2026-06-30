@@ -3,7 +3,7 @@
 An AI-powered web application that classifies breast tumors as **Malignant** or **Benign** using Random Forest algorithm.
 
 ## 🚀 Live Demo
-https://breast-cancer-prediction-using-random-forest.streamlit.app/
+https://breast-cancer-prediction-using-random-forest-raafe.streamlit.app/
 
 ## 📌 Project Overview
 This project uses machine learning to analyze tumor measurements from the Wisconsin Breast Cancer Dataset and predict whether a tumor is malignant or benign. The model is trained on 569 patient records with 30 clinical features.
